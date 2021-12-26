@@ -25,16 +25,16 @@ TELEGRAM=0
 TELEGRAM_TOKEN="your-token-here"
 TELEGRAM_CHAT_ID="your-chat-id-here"
 
-# Use Discord to report script execution summary (not the whole report) 
-# Set 1 to enable. 
+# Use Discord to report script execution summary (not the whole report)
+# Set 1 to enable.
 # To get your Webhook URL go to the channel settings -> Integrations and create a web hook
 DISCORD=0
 DISCORD_WEBHOOK_URL="your-webhook-url"
 
 # Custom notification service
-# Set this to a script/service to be used instead of the default email 
-# notification. You may want to use a service not natively supported by this 
-# script or a mail service with custom formatting. 
+# Set this to a script/service to be used instead of the default email
+# notification. You may want to use a service not natively supported by this
+# script or a mail service with custom formatting.
 # If you don't want to use this option, don't make changes to this.
 # $CURRENT_DIR can be used to get the running directory of the script.
 # This script will pass the following parameter to HOOK_NOTIFICATION:
